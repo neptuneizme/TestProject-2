@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Huy Hoang's Java Servlets and JSP <3</title>
+    <link rel="stylesheet" type="text/css" href="./Styles/style.css"/>
+</head>
+<body>
+
+<img src="lanlacontrai.jpg" height="225" width="225"/>
+<h1>Survey</h1>
+    <p>If you have a moment, we;d appreciate it if you would fill out this survey.</p>
+
+<form action="email" method="post">
+    <div>
+        <h2>Your Information</h2>
+        <input type="hidden" name="action" value="add">
+        <label>Email</label>
+        <input type="email" name="email" required><br>
+
+        <label>First Name</label>
+        <input type="text" name="firstName" required><br>
+
+        <label>Last Name</label>
+        <input type="text" name="lastName" required><br>
+
+        <label>Date of Birth</label>
+        <input type="date" name="dob" required><br>
+
+    </div>
+    <div>
+        <h2>How did you hear about us?</h2>
+        <input type="radio" name="how_hear" value="SE" checked>Search engine
+        <input type="radio" name="how_hear" value="WM">Word of mouth
+        <input type="radio" name="how_hear" value="SM">Social Media
+        <input type="radio" name="how_hear" value="O">Other
+    </div>
+    <div>
+        <h2>Would you like to receive announcements about new CDs and special offers?</h2>
+        <input type="checkbox" name="receive_announcements" value="YES">YES, I'd like that.
+        <input type="checkbox" name="receive_announcements" value="YES1">YES, please send me email announcements.
+        <p>Please contact me by:
+        <select name="contact_via">
+            <option value="email" selected>Email or postal mail</option>
+            <option value="phone">Phone call</option>
+        </select><p>
+    </div>
+
+
+    <input type="submit" value="Join Now" id="submit">
+    </form>
+</body>
+</html>
