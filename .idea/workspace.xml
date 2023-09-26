@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5642f736-8e69-4a1b-a34b-6f2838840d07" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/src/docker-java-servlet" beforeDir="false" afterPath="$PROJECT_DIR$/src/docker-java-servlet" afterDir="false" />
-    </list>
+    <list default="true" id="5642f736-8e69-4a1b-a34b-6f2838840d07" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +78,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -191,7 +189,7 @@
       <workItem from="1694611891145" duration="642000" />
       <workItem from="1694613632672" duration="686000" />
       <workItem from="1695134938253" duration="8780000" />
-      <workItem from="1695733390268" duration="1686000" />
+      <workItem from="1695733390268" duration="2066000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -297,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695735462065</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test">
+      <option name="closed" value="true" />
+      <created>1695735952576</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695735952576</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
