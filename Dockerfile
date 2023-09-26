@@ -1,4 +1,4 @@
-FROM tomcat:9.0-jdk17-corretto-al
+FROM tomcat:9.0-jdk17-corretto-al2
 
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -rf /usr/local/tomcat/webapps/examples
